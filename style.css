@@ -10,6 +10,10 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-nav div span {
-    margin-right: 20px;
+nav a {
+    font-size: 14px;
+}
+.left-nav {
+    display: flex;
+    gap: 20px;
 }
