@@ -6,20 +6,22 @@ header {
     padding: 40px 0px;
 }
 nav {
-    margin: 0px 60px;
+    margin: 0px 80px;
     display: flex;
     justify-content: space-between;
 }
 nav a {
-    font-size: 14px;
     text-decoration: none;
     color: rgb(91, 91, 91);
 }
-.left-nav {
-    display: flex;
-    gap: 30px;
+nav div div a {
+    font-size: 14px;
 }
-.right-nav {
+nav div {
     display: flex;
     gap: 40px;
+}
+nav div div a:hover {
+    background-color: rgb(237, 238, 246);
+    border-radius: 10px;
 }
