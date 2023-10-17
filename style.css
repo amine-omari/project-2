@@ -1,9 +1,15 @@
 html {
     height: 100%;
+    font-family: 'Manrope', sans-serif;
 }
 header {
     padding: 40px 0px;
 }
 nav {
     margin: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+nav div span {
+    margin-right: 20px;
 }
