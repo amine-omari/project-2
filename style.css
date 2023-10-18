@@ -2,16 +2,16 @@ html {
     font-family: 'Manrope', sans-serif;
 }
 header {
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
 nav {
-    margin: 0px 100px;
+    margin: 0px 120px;
     display: flex;
     justify-content: space-between;
 }
 nav a {
     text-decoration: none;
-    color: rgb(91, 91, 91);
+    color: rgb(81, 81, 81);
     font-size: 14px;
 }
 nav div div a {
@@ -32,9 +32,10 @@ nav div div a:hover {
 nav div button {
     background-color: #2563EB;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 20px;
     border: none;
+    font-weight: bold;
 }
 nav div button:hover {
     cursor: pointer;
@@ -42,4 +43,20 @@ nav div button:hover {
 }
 main {
     text-align: center;
+    margin-top: 130px;
+}
+main h1 {
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0px 265px;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
+main p {
+    padding: 0px 400px;
+    line-height: 30px;
+    font-size: 18px;
+}
+main a {
+    text-decoration: none;
 }
