@@ -1,27 +1,42 @@
 html {
-    height: 100%;
     font-family: 'Manrope', sans-serif;
 }
 header {
     padding: 40px 0px;
 }
 nav {
-    margin: 0px 80px;
+    margin: 0px 100px;
     display: flex;
     justify-content: space-between;
 }
 nav a {
     text-decoration: none;
     color: rgb(91, 91, 91);
+    font-size: 14px;
 }
 nav div div a {
-    font-size: 14px;
+    padding: 7px;
 }
 nav div {
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 nav div div a:hover {
     background-color: rgb(237, 238, 246);
     border-radius: 10px;
+}
+.signin-container:hover {
+    background-color: rgb(237, 238, 246);
+    border-radius: 10px;
+}
+nav div button {
+    background-color: #2563EB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+nav div button:hover {
+    cursor: pointer;
+    opacity: 0.85;
 }
