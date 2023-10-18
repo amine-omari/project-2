@@ -1,5 +1,11 @@
 html {
     font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
 }
 header {
     padding: 30px 0px;
@@ -100,10 +106,12 @@ main div i {
     font-size: 12px;
 }
 section {
-    margin: 170px 100px 0px 100px;
+    margin: 170px 80px 0px 80px;
 }
 section p {
     padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .companies-container {
     display: grid;
