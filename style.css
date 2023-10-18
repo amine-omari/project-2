@@ -40,3 +40,6 @@ nav div button:hover {
     cursor: pointer;
     opacity: 0.85;
 }
+main {
+    text-align: center;
+}
