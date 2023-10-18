@@ -100,7 +100,7 @@ main div i {
     font-size: 12px;
 }
 section {
-    margin: 170px 200px 0px 200px;
+    margin: 170px 100px 0px 100px;
 }
 section p {
     padding: 0px;
@@ -111,6 +111,6 @@ section p {
     grid-template-rows: auto;
 }
 .companies-container img {
-    width: 150px; 
-    height: 40px;
+    width: 160px; 
+    height: 60px;
 }
