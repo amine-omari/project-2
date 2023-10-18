@@ -13,9 +13,12 @@ nav a {
     text-decoration: none;
     color: rgb(81, 81, 81);
     font-size: 14px;
+    font-weight: bold;
 }
 nav div div a {
+    height: fit-content;
     padding: 7px;
+    margin-top: 2px;
 }
 nav div {
     display: flex;
@@ -24,6 +27,11 @@ nav div {
 nav div div a:hover {
     background-color: rgb(237, 238, 246);
     border-radius: 10px;
+}
+.signin-container {
+    height: fit-content;
+    padding: 7px;
+    margin-top: 2px;
 }
 .signin-container:hover {
     background-color: rgb(237, 238, 246);
@@ -59,4 +67,11 @@ main p {
 }
 main a {
     text-decoration: none;
+}
+main div {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    font-size: 14px;
 }
