@@ -94,3 +94,8 @@ main div {
 .main-link-2:hover {
     border: 1px solid rgb(204, 204, 204);
 }
+main div i {
+    color: #2563EB;
+    margin-right: 12px;
+    font-size: 12px;
+}
