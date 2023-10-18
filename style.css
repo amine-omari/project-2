@@ -75,3 +75,22 @@ main div {
     margin-top: 50px;
     font-size: 14px;
 }
+.main-link-1 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.main-link-1:hover {
+    opacity: 0.75;
+}
+.main-link-2 {
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 20px;
+}
+.main-link-2:hover {
+    border: 1px solid rgb(204, 204, 204);
+}
