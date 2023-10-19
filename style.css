@@ -177,6 +177,7 @@ section div div {
     }
 }
 
+
 @media only screen and (min-width:600px) {
     nav {
         margin: 10px 40px;
@@ -208,4 +209,9 @@ section div div {
     section {
         margin: 150px 0px 20px;
     }
+}
+
+
+@media only screen and (min-width:992px) {
+
 }
