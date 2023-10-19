@@ -130,3 +130,49 @@ section div div {
     gap: 50px;
     margin-top: 30px;
 }
+
+@media only screen and (max-width:600px) {
+    nav {
+        margin: 10px 0px;
+    }
+    .logo-container {
+        margin-right: 10px;
+    }
+    nav div {
+        gap: 5px;
+    }
+    nav div div a {
+        padding: 3px;
+    }
+    nav div button {
+        padding: 7px 15px;
+    }
+    .signin-container {
+        padding: 3px;
+    }
+    main {
+        margin-top: 50px;
+        padding: 0px 20px;
+    }
+    main h1 {
+        font-size: 48px;
+        padding: 0px;
+        line-height: normal;
+    }
+    main p {
+        padding: 0px;
+    }
+    main div {
+        gap: 15px;
+    }
+    section {
+        margin: 150px 0px 20px;
+    }
+    .companies-container {
+        gap: 25px;
+    }
+    section div div {
+        display: grid;
+        gap: 40px;
+    }
+}
