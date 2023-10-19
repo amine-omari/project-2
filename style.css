@@ -176,3 +176,36 @@ section div div {
         gap: 40px;
     }
 }
+
+@media only screen and (min-width:600px) {
+    nav {
+        margin: 10px 40px;
+    }
+    nav div {
+        gap: 20px;
+    }
+    main {
+        padding: 0px 80px;
+        margin-top: 80px;
+    }
+    main h1 {
+        font-size: 72px;
+        padding: 0px;
+    }
+    main p {
+        padding: 0px 0px;
+        line-height: 30px;
+    }
+    main div {
+        margin-top: 40px;
+    }
+    .companies-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+    }
+    section {
+        margin: 150px 0px 20px;
+    }
+}
