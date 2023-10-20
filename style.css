@@ -1,12 +1,7 @@
 html {
     font-family: 'Manrope', sans-serif;
-    margin: 0px;
-    padding: 0px;
-    max-width: 1500px;
-}
-body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px auto;
+    max-width: 1200px;
 }
 header {
     padding: 30px 0px;
@@ -16,9 +11,8 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-.logo-container {
-    font-size: 22px;
-    margin-right: 25px;
+nav div a svg {
+    width: 110px;
 }
 nav a {
     text-decoration: none;
@@ -88,8 +82,8 @@ main div {
 .main-link-1 {
     background-color: black;
     color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 12px 22px;
+    border-radius: 25px;
     font-weight: bold;
 }
 .main-link-1:hover {
@@ -97,9 +91,9 @@ main div {
 }
 .main-link-2 {
     color: black;
-    padding: 10px 20px;
+    padding: 12px 22px;
     border: 1px solid rgb(229, 229, 229);
-    border-radius: 20px;
+    border-radius: 25px;
 }
 .main-link-2:hover {
     border: 1px solid rgb(204, 204, 204);
@@ -117,73 +111,82 @@ section p {
     font-size: 16px;
     font-weight: bold;
     margin: 0px;
+    letter-spacing: 0.4px;
 }
 .companies-container {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: auto;
-    gap: 50px;
+    display: flex;
+    gap: 40px;
     margin: 0px;
 }
 section div div {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     margin-top: 30px;
 }
 
 @media only screen and (max-width:600px) {
+    html {
+        width: fit-content;
+    }
     nav {
         margin: 10px 0px;
-    }
-    .logo-container {
-        margin-right: 10px;
     }
     nav div {
         gap: 5px;
     }
     nav div div a {
         padding: 3px;
+        margin-top: 8px;
     }
     nav div button {
         padding: 7px 15px;
     }
     .signin-container {
         padding: 3px;
+        margin-top: 8px;
     }
     main {
-        margin-top: 50px;
-        padding: 0px 20px;
+        margin-top: 80px;
+        padding: 0px;
     }
     main h1 {
         font-size: 48px;
         padding: 0px;
-        line-height: normal;
+        line-height: 56px;
     }
     main p {
-        padding: 0px;
+        padding: 0px 20px;
     }
     main div {
-        gap: 15px;
+        gap: 25px;
     }
     section {
         margin: 150px 0px 20px;
     }
+    section p {
+        padding: 0px;
+    }
     .companies-container {
-        gap: 25px;
+        gap: 50px;
     }
     section div div {
-        display: grid;
-        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
 
 @media only screen and (min-width:600px) {
+    header {
+        padding: 40px 0px;
+    }
     nav {
-        margin: 10px 40px;
+        margin: 0px 10px;
     }
     nav div {
-        gap: 20px;
+        gap: 30px;
     }
     main {
         padding: 0px 80px;
@@ -200,18 +203,15 @@ section div div {
     main div {
         margin-top: 40px;
     }
-    .companies-container {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: repeat(2, auto);
-        gap: 10px;
-    }
     section {
         margin: 150px 0px 20px;
+    }
+    .companies-container {
+        flex-direction: column;
+        gap: 0px;
     }
 }
 
 
 @media only screen and (min-width:992px) {
-
 }
