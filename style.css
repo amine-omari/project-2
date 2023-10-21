@@ -125,6 +125,31 @@ section div div {
     gap: 40px;
     margin-top: 32px;
 }
+.image-container {
+    margin: 0px;
+    background-image: url(https://salient.tailwindui.com/_next/static/media/background-faqs.55d2e36a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2 {
+    margin: 200px 30px 100px;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0px;
+}
+section div h2 {
+    font-size: 40px;
+    margin: 0px;
+}
+section div p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #334155;
+    margin: 16px 550px 0px 0px ;
+}
 
 
 
