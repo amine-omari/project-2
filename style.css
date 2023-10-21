@@ -150,6 +150,33 @@ section div p {
     color: #334155;
     margin: 16px 550px 0px 0px ;
 }
+section div ul h3 {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 28px;
+}
+section div ul p {
+    font-size: 14px;
+    margin: 16px 0px 0px;
+    line-height: 24px;
+}
+section div ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.question-container {
+    text-align: left;
+    gap: 28.5px;
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    letter-spacing: 0.5px;
+}
 
 
 
