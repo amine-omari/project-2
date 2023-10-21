@@ -197,6 +197,25 @@ footer div div {
     background-color: rgb(237, 238, 246);
     border-radius: 10px;
 }
+footer hr {
+    margin: 55px 0px 10px;
+    border: 0.5px solid rgb(231, 231, 231);
+}
+footer div div p {
+    margin: 0px;
+    font-size: 14px;
+}
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-2 div i {
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+}
+.footer-2 div i:hover {
+    color: black;
+}
 
 
 
