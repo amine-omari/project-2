@@ -209,9 +209,12 @@ footer div div p {
     display: flex;
     justify-content: space-between;
 }
+.footer-2 div {
+    gap: 28px;
+}
 .footer-2 div i {
     font-size: 20px;
-    color: rgb(150, 150, 150);
+    color: rgb(103, 103, 103);
 }
 .footer-2 div i:hover {
     color: black;
@@ -375,10 +378,10 @@ footer div div p {
     }
     main {
         margin-top: 130px;
-        padding: 0px 70px;
+        padding: 0px;
     }
     main p {
-        padding: 0px 130px;
+        padding: 0px 180px;
         font-size: 18px;
     }
     main div {
@@ -395,7 +398,24 @@ footer div div p {
         font-size: 16px;
     }
     section div div {
-        gap: 50px;
+        gap: 48px;
+    }
+    .companies-container {
+        gap: 8px;
+    }
+    .section-2 {
+        margin: 200px 25px 100px;
+    }
+    .question-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 24px;
+    }
+    section div p {
+        margin: 16px 350px 0px 0px ;
+    }
+    footer {
+        margin: 93px 25px 40px;
     }
 }
 
