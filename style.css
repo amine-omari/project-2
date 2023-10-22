@@ -199,7 +199,7 @@ footer div div {
 }
 footer hr {
     margin: 55px 0px 10px;
-    border: 0.5px solid rgb(231, 231, 231);
+    border: 0.5px solid rgb(245, 245, 245);
 }
 footer div div p {
     margin: 0px;
@@ -216,7 +216,6 @@ footer div div p {
 .footer-2 div i:hover {
     color: black;
 }
-
 
 
 @media only screen and (max-width:600px) {
@@ -269,6 +268,31 @@ footer div div p {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+    .section-2 {
+        margin: 200px 8px 0px;
+    }
+    .inner-container {
+        margin: 0px;
+    }
+    section div h2 {
+        font-size: 32px;
+    }
+    section div p {
+        margin: 16px 0px 0px ;
+    }
+    .question-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+    footer {
+        margin: 150px 0px 45px; 
+    }
+    .footer-2 {
+        flex-direction: column-reverse;
+    }
+    .footer-2 div {
+        margin-top: 24px;
     }
 }
 
