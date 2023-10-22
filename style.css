@@ -403,6 +403,9 @@ footer div div p {
     .companies-container {
         gap: 8px;
     }
+    .image-container {
+        background-position: 50px -200px;
+    }
     .section-2 {
         margin: 200px 25px 100px;
     }
@@ -459,6 +462,9 @@ footer div div p {
     .companies-container {
         flex-direction: row;
         gap: 48px;
+    }
+    .image-container {
+        background-position: 150px -150px;
     }
     .section-2 {
         margin: 200px 35px 100px;
