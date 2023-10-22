@@ -308,19 +308,20 @@ footer div div p {
         margin-right: 15px;
     }
     main {
-        padding: 0px 80px;
-        margin-top: 88px;
+        padding: 0px;
+        margin-top: 80px;
     }
     main h1 {
         font-size: 72px;
-        padding: 0px;
+        padding: 0px 60px;
     }
     main p {
-        padding: 0px;
-        line-height: 30px;
+        padding: 0px 60px;
+        line-height: 32px;
     }
     main div {
         margin-top: 40px;
+        gap: 20px;
     }
     section {
         margin: 150px 0px 20px;
@@ -328,6 +329,29 @@ footer div div p {
     .companies-container {
         flex-direction: column;
         gap: 0px;
+    }
+    section div div {
+        gap: 50px;
+    }
+    .image-container {
+        background-position: -200px -450px;
+    }
+    .section-2 {
+        margin: 200px 58px 0px;
+    }
+    .inner-container {
+        margin: 0px;
+    }
+    section div p {
+        margin: 16px 0px 0px;
+        padding: 0px;
+    }
+    .question-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
+    footer {
+        margin: 190px 20px 40px;
     }
 }
 
