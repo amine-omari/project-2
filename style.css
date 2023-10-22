@@ -460,4 +460,16 @@ footer div div p {
         flex-direction: row;
         gap: 48px;
     }
+    .section-2 {
+        margin: 200px 35px 100px;
+    }
+    section div p {
+        margin: 16px 550px 0px 0px ;
+    }
+    .question-container {
+        gap: 23.5px;
+    }
+    footer {
+        margin: 93px 36px 40px;
+    }
 }
